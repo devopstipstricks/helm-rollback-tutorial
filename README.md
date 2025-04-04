@@ -2,10 +2,11 @@
 
 This repository contains all resources demonstrated in the "Fix Failed Deployments Fast with Helm Rollback" tutorial from the DevOps Tips and Tricks YouTube channel.
 
-📺 Video Tutorial
-Watch the complete walkthrough:
+## 📺 Video Tutorial
 
-📋 Overview
+[![Helmm Rollback Tutorial](https://img.youtube.com/vi/tx9MDV6in9g/0.jpg)](https://youtu.be/tx9MDV6in9g?si=-l2D8m1Rp-ePS_Y1) 
+
+## 📋 Overview
 Learn how to recover from failed Kubernetes deployments quickly and effectively using Helm's powerful rollback capabilities. This tutorial covers:
 
 Initial deployment with Helm
@@ -14,13 +15,13 @@ Identifying and troubleshooting failed deployments
 Executing rollbacks to restore stability
 Advanced rollback options and best practices
 
-🛠️ Prerequisites
+## 🛠️ Prerequisites
 
 Kubernetes cluster (local or remote)
 Helm v3 installed
 Basic understanding of Helm charts and Kubernetes
 
-🚀 Quick Start
+## 🚀 Quick Start
 
 Clone this repository:
 ```bash
@@ -59,7 +60,7 @@ helm rollback my-nginx 1 --dry-run -n helm-rollback-demo
 helm rollback my-nginx 2 --force -n helm-rollback-demo
 ```
 
-🔍 Key Takeaways
+## 🔍 Key Takeaways
 
 Helm maintains a complete release history, enabling easy rollbacks
 Each rollback creates a new revision in the history
@@ -67,14 +68,15 @@ Use helm history to view available revisions
 The --dry-run flag lets you preview rollback effects
 Helm rollback is your safety net for Kubernetes deployments
 
-📚 Additional Resources
+## 📚 Additional Resources
 
 Official Helm Documentation
 Kubernetes Documentation
 Bitnami Helm Charts
 
-🔗 Connect
+## 🔗 Connect
 
-Subscribe to DevOps Tips and Tricks
-Follow on Twitter
+Subscribe to DevOps Tips and Tricks: https://www.youtube.com/@devops-tips-and-tricks
+
+Follow on X: https://x.com/devopstricks
 
