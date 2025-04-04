@@ -1,0 +1,4 @@
+replicaCount: 2
+resources:
+  requests:
+    memory: "1000Gi"  # Deliberately request too much memory
